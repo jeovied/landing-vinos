@@ -35,7 +35,7 @@ const Header = () => {
                 </Typography>
             </Box>
             <Box component="main">
-                <Video src={bannerVideo} autoPlay loop />
+                <Video src={bannerVideo} autoPlay muted loop />
             </Box>
         </Container>
     );
