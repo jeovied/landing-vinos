@@ -10,12 +10,22 @@ const Footer = () => {
                     alignItems: "center",
                     backgroundColor: "black",
                     width: "100%",
-                    height: "200px",
+                    height: "150px",
                 }}
             >
-                <Typography fontWeight="700" color="white" fontSize="15px">
-                    JyA Development
-                </Typography>
+                <Box>
+                    <Typography fontWeight="700" color="white" fontSize="20px">
+                        JyA Development
+                    </Typography>
+                    <Typography
+                        fontWeight="700"
+                        color="white"
+                        fontSize="12px"
+                        textAlign="center"
+                    >
+                        All rights reserved ©
+                    </Typography>
+                </Box>
             </Box>
         </>
     );
