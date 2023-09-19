@@ -1,31 +1,44 @@
-import styled from '@emotion/styled';
-import { Box, Card, Typography } from '@mui/material';
+import { Card, CardActionArea, CardContent, CardMedia, Typography } from '@mui/material';
 
 interface props {
   card: {
     img: string;
+    title: string;
     description: string;
   }
 }
 
 export const CardItem = ({ card }: props) => {
 
-  const Img = styled("img")({
-    width: '100%',
-    height: 100,
+  const imgStyle = {
     objectFit: 'contain',
     objectPosition: 'center'
-  });
+  }
 
   return (
     <>
-      <Card sx={{ maxWidth: '30vw', padding: '16px' }}>
+      <Card sx={{ maxWidth: 345 }}>
 
-        <Img src={card.img} />
+        <CardActionArea>
 
-        <Box >
-          <Typography>{card.description}</Typography>
-        </Box>
+          <CardMedia
+            component="img"
+            height="180"
+            sx={imgStyle}
+            src={card.img}
+            alt={card.description}
+          />
+
+          <CardContent>
+
+            <Typography>{card.title}</Typography>
+            <Typography variant='body2'>
+              {card.description}
+            </Typography>
+
+          </CardContent>
+
+        </CardActionArea>
 
       </Card >
     </>
