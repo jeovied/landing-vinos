@@ -6,9 +6,9 @@ const Header = () => {
     const Video = styled("video")({
         backgroundColor: "black",
         width: "100%",
-        height: "100%",
-        objectFit: "contain",
-        objectPosition: "center",
+        maxHeight: "400px",
+        objectFit: "cover",
+        objectPosition: "50% 80%",
     });
 
     return (
@@ -16,9 +16,11 @@ const Header = () => {
             <Box
                 sx={{
                     backgroundColor: "black",
+                    position: "absolute",
+                    opacity: "0.85",
                     display: "flex",
                     width: "100%",
-                    height: 80,
+                    height: "8%",
                     justifyContent: "center",
                     alignItems: "center",
                 }}
