@@ -1,4 +1,4 @@
-import { CardList } from "./Components/CardList";
+import { CardList } from "./Components/Card/CardList";
 import { Container } from "@mui/material";
 import { Footer, Header } from "./Components";
 

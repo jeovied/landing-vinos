@@ -31,7 +31,9 @@ export const CardItem = ({ card }: props) => {
 
           <CardContent>
 
-            <Typography>{card.title}</Typography>
+            <Typography color={'orange'}>
+              {card.title}
+            </Typography>
             <Typography variant='body2'>
               {card.description}
             </Typography>

@@ -1,5 +1,5 @@
 import { Container } from '@mui/material';
-import { CardItem } from './CardItem';
+import { CardItem } from './components/CardItem';
 
 const cards = [
   {
