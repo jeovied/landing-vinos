@@ -1,19 +1,20 @@
 import { Card, CardActionArea, CardContent, CardMedia, Typography } from '@mui/material';
 
-interface props {
+interface Props {
   card: {
+    id: string;
     img: string;
     title: string;
     description: string;
   }
 }
 
-export const CardItem = ({ card }: props) => {
+export const CardItem = ({ card }: Props) => {
 
   const imgStyle = {
     objectFit: 'contain',
     objectPosition: 'center'
-  }
+  };
 
   return (
     <>
