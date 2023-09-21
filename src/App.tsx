@@ -1,4 +1,4 @@
-import { CardList } from "./Components/Card/CardList";
+import { CardContainer } from "./Components/Card/CardContainer";
 import { Container } from "@mui/material";
 import { Footer, Header } from "./Components";
 
@@ -15,7 +15,7 @@ function App() {
             }}
         >
             <Header />
-            <CardList />
+            <CardContainer />
             <Footer />
         </Container>
     );
