@@ -4,9 +4,8 @@ import bannerVideo from "../../assets/banner-video.mp4";
 
 const Header = () => {
     const Video = styled("video")({
-        backgroundColor: "black",
         width: "100%",
-        maxHeight: "400px",
+        maxHeight: "450px",
         objectFit: "cover",
         objectPosition: "50% 80%",
     });
@@ -16,26 +15,50 @@ const Header = () => {
             <Box
                 sx={{
                     backgroundColor: "black",
-                    position: "absolute",
-                    opacity: "0.85",
                     display: "flex",
                     width: "100%",
-                    height: "8%",
+                    height: "125px",
                     justifyContent: "center",
                     alignItems: "center",
                 }}
             >
-                <WineBarTwoToneIcon htmlColor="white" />
+                <WineBarTwoToneIcon
+                    htmlColor="white"
+                    sx={{ fontSize: "40px" }}
+                />
                 <Typography
                     fontWeight="700"
-                    textTransform="uppercase"
+                    fontSize="35px"
+                    fontStyle="italic"
                     color="white"
+                    fontFamily="Allura"
                 >
                     Landing Vinos
                 </Typography>
             </Box>
-            <Box component="main">
+            <Box component="main" maxHeight="450px">
                 <Video src={bannerVideo} autoPlay muted playsInline loop />
+            </Box>
+            <Box
+                sx={{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    mt: -1,
+                }}
+                bgcolor="#59114D"
+                width="100%"
+                height="200px"
+            >
+                <Typography
+                    fontWeight="700"
+                    color="#ECDCB0"
+                    fontStyle="italic"
+                    fontSize="25px"
+                    fontFamily="dancing script"
+                >
+                    Landing Vinos
+                </Typography>
             </Box>
         </Container>
     );

@@ -1,6 +1,7 @@
 import { CardContainer } from "./Components/Card/CardContainer";
 import { Container } from "@mui/material";
 import { Footer, Header } from "./Components";
+import BackgroundBody from "./assets/background-body.jpg";
 
 function App() {
     return (
@@ -9,9 +10,11 @@ function App() {
             disableGutters
             sx={{
                 display: "flex",
-                height: "100vh",
                 flexDirection: "column",
                 justifyContent: "space-between",
+                backgroundImage: `url(${BackgroundBody})`,
+                backgroundRepeat: "repeat",
+                backgroundSize: "contain",
             }}
         >
             <Header />

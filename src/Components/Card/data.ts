@@ -53,10 +53,10 @@ export const cards = [
     title: 'Salentein Single Vineyard El Tomillo Malbec 2019',
     description: 'El intenso aroma del tomillo salvaje que crece abundantemente en la viña dio origen al nombre "El Tomillo". Este es el lugar de nacimiento de uno de los vinos de Malbec más distinguidos de Salentein.Este vino destaca por la complejidad de sus aromas a frutas rojas y especias. En boca es elegante con taninos aterciopelados y finos, notas minerales y especiadas sostenidas por una acidez refrescante y un agradable final persistente.'
   },
-  {
-    id: '10',
-    img: 'https://ucarecdn.com/4bac66ea-b5c2-46f6-860f-d40f62c0a694/',
-    title: 'Diamandes de Uco Malbec 2019',
-    description: 'DiamAndes de Uco Malbec es un Varietal 100% Malbec que revela toda la redondez, la riqueza y la intensidad del Malbec, cepaje emblemático de Argentina. Además de su fuerte identidad varietal, este vino se caracteriza por la gran elegancia que le confiere la tipicidad del viñedo de bodega DiamAndes, situado a 1.100 metros de altitud. Su particular clima de altitud, en el que alternan noches frías con días cálidos y soleados, le permite mantener una buena acidez que aportan frescor y equilibrio a los vinos.'
-  },
+  // {
+  //   id: '10',
+  //   img: 'https://ucarecdn.com/4bac66ea-b5c2-46f6-860f-d40f62c0a694/',
+  //   title: 'Diamandes de Uco Malbec 2019',
+  //   description: 'DiamAndes de Uco Malbec es un Varietal 100% Malbec que revela toda la redondez, la riqueza y la intensidad del Malbec, cepaje emblemático de Argentina. Además de su fuerte identidad varietal, este vino se caracteriza por la gran elegancia que le confiere la tipicidad del viñedo de bodega DiamAndes, situado a 1.100 metros de altitud. Su particular clima de altitud, en el que alternan noches frías con días cálidos y soleados, le permite mantener una buena acidez que aportan frescor y equilibrio a los vinos.'
+  // },
 ];
