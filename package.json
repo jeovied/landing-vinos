@@ -1,9 +1,9 @@
 {
+    "homepage": "https://jeovied.github.io/landing-vinos",
     "name": "landing-vinos",
     "private": true,
     "version": "0.0.0",
     "type": "module",
-    "homepage": "https://jyadevelopment.github.io",
     "scripts": {
         "dev": "vite",
         "build": "tsc && vite build",
