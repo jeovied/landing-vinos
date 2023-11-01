@@ -5,7 +5,9 @@ import App from "./App.tsx";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
     <React.StrictMode>
-        <CssBaseline />
-        <App />
+        <React.Fragment>
+            <CssBaseline />
+            <App />
+        </React.Fragment>
     </React.StrictMode>
 );
